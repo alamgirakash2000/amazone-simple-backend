@@ -18,7 +18,7 @@ app.use("/api/order", orderRoutes);
 
 // DB configurable
 
-const connectionUrl = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.ninue.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`;
+const connectionUrl = `mongodb+srv://amazon_Admin:sDSWMv7MxonNRNVo@cluster0.ninue.mongodb.net/amazon-clone?retryWrites=true&w=majority`;
 mongoose.connect(connectionUrl, {
   useCreateIndex: true,
   useNewUrlParser: true,
